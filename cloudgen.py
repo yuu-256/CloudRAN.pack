@@ -104,9 +104,9 @@ if __name__ == '__main__':
 
     # Parameters setting
     grid_shape = (3, 32, 32)   # Field shape (i, j, k)
-    z0 = 0.55                    # Decorrelation distance
+    z0 = 5                    # Decorrelation distance
     scaling_factor = 1          # Scaling factor
-    max_iterations = 10         # Maximum number of iterations
+    max_iterations = 1         # Maximum number of iterations
     
     # Initialize the cloud field
     cloud_field = np.random.rand(*grid_shape)  # Define the initial cloud field

@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Mesure time
 start=`date +%s`
 
@@ -13,7 +12,7 @@ do
     seed_value=$((RANDOM % 10000))
 
     # Execute python code, save output to file
-    python3 cloudgen.py "out_field/output_$i" $seed_value
+    python3 cloudgen.py "out_field2/output_$i" $seed_value
 
     # Print progress
     echo "Progress: $((i+1))/1000"

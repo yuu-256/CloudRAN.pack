@@ -39,11 +39,11 @@ def npy_to_txt(npy_file, text_file):
         f.write("10 4 3 2\n")
         f.write("  0    0.98                  : IFRH TRH\n")
         f.write("  1    2     0.5E-4         : NPOLY ICN WLCN\n")
-        f.write("  1    1000                  : NCOMP CNPT\n")
+        f.write("  1    1                  : NCOMP CNPT\n")
         f.write("  1                         : MPTC\n")
         f.write("  1.0                       : VPTC\n")
-        f.write("1  400000    : icycl np\n")
-        f.write("10  10  1.0  1.0 : nx ny dx dy\n")
+        f.write("1  40000    : icycl np\n")
+        f.write("32  32  1.0  1.0 : nx ny dx dy\n")
         f.write("0.0  fis\n")
 
     # Write the data slices

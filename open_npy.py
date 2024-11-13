@@ -1,5 +1,4 @@
 ### THIS SCRIPT IS USED TO OPEN THE .NPY FILES AND DISPLAY THE IMAGES
-
 ### IMPORT LIBRARIES ###
 import sys
 import numpy as np

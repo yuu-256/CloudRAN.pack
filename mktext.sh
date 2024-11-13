@@ -9,7 +9,7 @@ echo "Writing 1000 imput files..."
 for i in {0..999}
 do
     # Execute python code, save output to file
-    python3 mktext_input.py "out_field/output_$i.npy" "out_text/output_$i.txt"
+    python3 mktext_input.py "out_field2/output_$i.npy" "out_text2/output_$((i+1000)).txt"
 
     # Print progress
     echo "Progress: $((i+1))/1000"
