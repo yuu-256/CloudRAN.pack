@@ -28,7 +28,7 @@ if __name__ == '__main__':
      
     upflux = np.array([])
 
-    fnm = '../out_test32'
+    fnm = '../../data/test/out_les'
     line_number = [i for i in range(1474,6590,5)]
     upflux_0 = np.array([])
     upflux_60 = np.array([])

@@ -39,7 +39,7 @@ def npy_to_txt(npy_file, text_file):
         f.write("10 4 3 2\n")
         f.write("  0    0.98                  : IFRH TRH\n")
         f.write("  1    2     0.5E-4         : NPOLY ICN WLCN\n")
-        f.write("  1    1                  : NCOMP CNPT\n")
+        f.write("  1    100                  : NCOMP CNPT\n")
         f.write("  1                         : MPTC\n")
         f.write("  1.0                       : VPTC\n")
         f.write("1  40000    : icycl np\n")

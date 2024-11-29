@@ -3,16 +3,13 @@
 # Mesure time
 start=`date +%s`
 
-echo "Generating 1000 cloud fields..."
+echo "Writing 1000 imput files..."
 
 # Get cloud field at 1000 random seed values
-for i in {2000..9999}
+for i in {1000..1999}
 do
-    # Get random seed value
-    seed_value=$((RANDOM % 10000))
-
     # Execute python code, save output to file
-    python3 cloudgen.py "../../data/cloudgen/deep_fields_3/output_$i" $seed_value
+    python3 mktext_input.py "../../data/cloudgen/deep_fields_norm_2/output_$i.npy" "../../data/mcstar_in/intext100_2/output_$i.txt"
 
     # Print progress
     echo "Progress: $((i+1))/1000"
@@ -23,3 +20,4 @@ echo "Done!"
 end=`date +%s`
 runtime=$((end-start))
 echo "Runtime: $runtime"
+

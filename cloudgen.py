@@ -105,7 +105,7 @@ if __name__ == '__main__':
     # Parameters setting
     grid_shape = (3, 32, 32)   # Field shape (i, j, k)
     z0 = 5                    # Decorrelation distance
-    scaling_factor = 1          # Scaling factor
+    scaling_factor = 3          # Scaling factor
     max_iterations = 1         # Maximum number of iterations
     
     # Initialize the cloud field
